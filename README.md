@@ -1,3 +1,5 @@
+# INFORME-TAREA-7
+
 UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
 
 FUNDAMENTOS DE CIRCUITOS ELÉCTRICOS
@@ -12,7 +14,12 @@ PÁNCHEZ GUAMUSHIG PABLO ANDRES
 
 OBJETIVO GENERAL:
 
-# INFORME-TAREA-7
+OBJETIVOS ESPECÍFICOS:
+
+2.MARCO CONCEPTUAL
+
+
+3.RESOLUCIÓN DE EJERCICIOS
 
 SECCIÓN 13–1 El inductor básico
 
@@ -191,46 +198,13 @@ SECCIÓN 14–9 Localización de fallas
 34. Mientras usted revisa un transformador, se da cuenta que el voltaje secundario es menor de lo que debería ser aunque no es de cero. ¿Cuál es la falla más probable?
 
 
+4. VIDEO
 
+5. CONCLUSIONES
 
+6. BIBLIOGRAFÍA
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+FLOYD, THOMAS L. Principios de circuitos eléctricos. Octava edición. PEARSON EDUCACIÓN, México, 2007.
 
 
 
