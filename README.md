@@ -47,60 +47,137 @@ N=√((30mH x 0.05m)/((1.26 x 10^-6)(10x10^-5 m^2)))= 3450 Vueltas
 
 8. Compare la inductancia de dos inductores idénticos excepto que el inductor 2 tiene dos veces la cantidad de vueltas del inductor 1.
 
+Suponiendo que uA/l= z, que las vueltas del inductor 1 es N=1, y las vueltas del inductor 2 es N=2, entonces:
+
 10. Un estudiante enrolla 100 vueltas de alambre sobre un lápiz de 7 mm de diámetro como se muestra en la figura 13-43. El lápiz es un núcleo no magnético de tal suerte que su permeabilidad es igual a la de un vacío (4pi x 10^-6 H/m). Determine la inductancia de la bobina que se formó.
 
 ![image](https://user-images.githubusercontent.com/116771507/217122771-3453dc35-286a-4d1f-825d-32a72b52f7f1.png)
+
+l=3.5 cm= 0.035m
+
+A=π r^2
+
+A= π(4x10^-6 m)^2= 5.026 x 10^-9 m^2
+
+L= N^2 uA/l= (100^2)(4x10^-6 H/m)(5.026x10^-9 m^2)/0.035m
+
+L= 5.74 uH
 
 SECCIÓN 13–3 Inductores en serie y en paralelo
 
 12. Usted requiere una inductancia total de 50 mH. Tiene disponibles una bobina de 10 mH y otra de 22 mH.
 ¿Cuánta inductancia adicional necesita?
 
+Lx= 50mH-10mH-22mH= 18mH
+
 14. En la figura 13-45, ¿cuál es la inductancia total entre los puntos A y B con cada posición del interruptor?
 
 ![image](https://user-images.githubusercontent.com/116771507/217122828-d2fab213-f87a-4137-b2b0-309967571979.png)
 
+POSICIÓN 1:
+
+Lt= L1+L2+L4= 300uH+680uH+800uH = 1810uH
+
+POSICIÓN 2:
+
+Lt= L2+L4 = 680uH+800uH = 1480 uH
+
+POSICIÓN 3:
+
+Lt= L4= 800 uH
+
+POSICIÓN 4:
+
+Lt= 1/(1/L2+1/L4)
+
+Lt=1/(1/1.5mH +1/800uH) = 0.52 mH
+
+
 16. Usted tiene un inductor de 12 mH, y éste es su valor más bajo, pero necesita una inductancia de 8 mH. ¿Qué valor puede utilizar en paralelo con el inductor de 12 mH para obtener 8 mH?
+
+8mH= L1(12mH)/(L1+12mH)
+
+8mH(L1+12mH)= L1(12mH)
+
+96 mH^2= 12mHL1-8mL1
+
+L1= 96 mH^2/ 4mH = 24mH
+
 
 18. Determine la inductancia total de cada circuito mostrado en la figura 13-47.
 
 ![image](https://user-images.githubusercontent.com/116771507/217122874-9688ba4e-bc21-44cf-823c-9317acc6e552.png)
 
+CIRCUITO A
+
+Lt= (100mH x 50mH)/150mH + (60mH x 40mH)/100mh 
+
+CIRCUITO B
+
+Lt= (12mH x 6mH)/18mH= 4mH
+
+CIRCUITO C
+
+Lt= 4mH+ (2mH x 4mH)/6mH = 5.33 mH
 
 20. En un circuito RL en serie, determine cuánto tiempo se lleva la corriente para incrementarse a su valor
 total con cada una de las siguientes combinaciones:
 
 a) R= 56Ω, L=50uH
 
+T= 5(50uH/56Ω)= 4.46 us
+
 b)R=300Ω, L=15mH
+
+T= 5(15mH/3300Ω)= 22.7 us
 
 c)R=22kΩ, L=100mH
 
+T= 5(100mH/22kΩ)= 22.7 us
 
 22. Para el inductor ideal de la figura 13-49, calcule la corriente en cada uno de los siguientes instantes:
 
 ![image](https://user-images.githubusercontent.com/116771507/217123434-e20a9325-e226-48ea-8a05-a83bb2bfacbf.png)
 
+T= 75mH/8.2kΩ = 9.15 us
+
+If= 10V/8.2kΩ= 1.22mA
+
 a)10 us
+
+i= 1.22mA(1-e^(-10us/9.15us))= 0.811 mA
 
 b)20 us
 
+i= 1.22mA(1-e^(-20us/9.15us))= 1.08 mA
+
 c)30 us
+
+i= 1.22mA(1-e^(-30us/9.15us))= 1.17 mA
 
 24. Repita el problema 22 para los siguientes instantes:
 
 a)65 us
 
+i= 1.22mA(1-e^(-65us/9.15us))= 1.218 mA
+
 b)75 us
+
+i= 1.22mA(1-e^(-75us/9.15us))= 1.219 mA
 
 c)85 us
 
+i= 1.22mA(1-e^(-85us/9.15us))= 1.22 mA
+
 26. (a) ¿Cuál es la polaridad del voltaje inducido en el inductor de la figura 13-49 cuando la onda cuadrada está creciendo?
 
-
+Dado la polaridad del voltaje inducido es tal que siempre se opne al cambio de corriente, por lo que la polaridad es negativa.
 
 (b) ¿Cuál es la corriente justo antes de que la onda cuadrada se reduzca a cero?
 
+If= Vs/R
+
+If= 10V/8.2 kΩ = 1.22 mA
 
 28. 
 
@@ -108,9 +185,19 @@ c)85 us
 
 (a) ¿Cuál es la corriente en el inductor 1.0 ms después de que se cierra el interruptor en la figura 13-50?
 
+Rt= (8KΩ)||(11.5kΩ) = 4.72 kΩ
+
+t= 3.3mH/4.72kΩ= 0.699 us
+ 
+i= (569uA)e^(-1us/0.699us)=136uA
 
 
 (b) ¿Cuál es la corriente después de que transcurren 5t?
+
+t= 5(3.3mH/4.75kΩ)=3.496 us
+
+i= (569uA)e^(-1us/3.496us)=427uA
+
 
 
 SECCIÓN 13–5 Inductores en circuitos de ca
@@ -119,12 +206,51 @@ SECCIÓN 13–5 Inductores en circuitos de ca
 
 ![image](https://user-images.githubusercontent.com/116771507/217123768-ac3fc473-74e4-4cb3-af30-9fdde5581ad6.png)
 
+CIRCUITO A
+
+Lt= 1H+ (10H x 5H)/(10H + 5H) = 4.33H
+
+Xl= 2π(5kHz x 4.33H) = 136 kΩ}
+
+CIRCUITOS B
+
+Lt= 100mH/2 = 50 mH
+
+Xl= 2π(5kHz x 50 mH)= 1.57 kΩ
+
+
+CIRCUITO C
+
+Lt= 1/(1/100uH + 1/200uH+ 1/400uH)= 57uH 
+
+Xl= 2π(5kHz x 57uH)= 1.79 Ω
+
+
+
 32. En la figura 13-51, determine la corriente rms total. ¿Cuáles son las corrientes a través de L2 y L3?
 
 ![image](https://user-images.githubusercontent.com/116771507/217123836-9aa75053-54e0-4a7e-984b-7fb57fd43852.png)
 
+Lt= 50mH + (20mH x 40mH)/60mH = 63.3 mH
+
+Xl(total)= 2π(2.5kHz x 63.3mH)= 994 Ω
+
+Xl2= 2π(2.5kHz x 20mH)= 314Ω
+
+Xl3= 2π(2.5kHz x 40mH)= 628Ω
+
+It= Vrms/Xl(total) = 10V/994Ω= 10.1 mA
+
+Il2= (628Ω/ 314Ω+328Ω) x 10.1mA = 6.7 mA
+
+Il3= (314Ω/ 314Ω+328Ω) x 10.1mA = 3.37 mA
+
+
 34. En la figura 13-51, determine la potencia reactiva.
 
+Xl(total)= 2π(52.5kHz x 63.3mH)= 994 Ω
+
+Pr= (10.1 mA)^2 (994Ω)= 101 mVAR
 
 SECCIÓN 14–1 Inductancia mutua
 
