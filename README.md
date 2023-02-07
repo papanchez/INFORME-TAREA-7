@@ -252,32 +252,65 @@ Xl(total)= 2π(52.5kHz x 63.3mH)= 994 Ω
 
 Pr= (10.1 mA)^2 (994Ω)= 101 mVAR
 
+CAPÍTULO 14
+
 SECCIÓN 14–1 Inductancia mutua
 
 2. Determine el coeficiente de acoplamiento cuando LM=1 uH, L1=8 uH, y L2=2 uH.
+
+K= LM/√(L1 x L2) = 1uH/√(8uH x 2uH)= 0.25
+
 
 SECCIÓN 14–2 El transformador básico
 
 4. Cierto transformador tiene 250 vueltas en su devanado primario. Para duplicar el voltaje, ¿cuántas vueltas debe haber en el devanado secundario?
 
+Nsec= 2Npri= 2 x 250 = 500 vueltas
+
 SECCIÓN 14–3 Transformadores elevadores y reductores
 
 6. Para elevar 240 V de ca a 720 V, ¿cuál debe ser la relación de vueltas?
 
+n= Vsec/Vpri= 720V/ 240V = 3 
+
 8. ¿Cuántos volts primarios se deben aplicar a un transformador que tiene relación de vueltas de 10 para obtener un voltaje secundario de 60 V de ca?
 
+n= Vsec/Vpri= 10
+
+Vpri= (1/n)Vsec = (1/10)60V = 6V
+
+
 10. El devanado primario de un transformador tiene 1200 V a través de él. ¿Cuál es el voltaje secundario si la relación de vueltas es de 0.2?
+
+Vsec= 0.2 x 1200V= 240V
 
 12. ¿Cuál es el voltaje a través de la carga en cada uno de los circuitos de la figura 14-43?
 
 ![image](https://user-images.githubusercontent.com/116771507/217124248-9fc6f3c8-6afb-4bbd-bb93-0cad997733e9.png)
 
+CIRCUITO A
+
+VL= (Nsec/Npri)Vpri= (1/20)120V= 6V
+
+CIRCUITO B
+
+VL= (2/1) x 0V = 0V
+
+CIRCUITO C
+
+VL= (4)x 10V= 40V
 
 SECCIÓN 14–4 Carga del devanado secundario
 
 14. Determine Is en la figura 14-45. ¿Cuál es el valor de RL?
 
 ![image](https://user-images.githubusercontent.com/116771507/217124377-f7e3b637-c51f-4c63-96e6-ca6df8e34f48.png)
+
+n= 1/3
+
+Isec= (1/3) 
+
+
 
 SECCIÓN 14–5 Carga reflejada
 
