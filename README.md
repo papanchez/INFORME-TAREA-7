@@ -25,17 +25,25 @@ SECCIÓN 13–1 El inductor básico
 
 2. Convierta los siguientes valores en microhenries:
 
-(a) 300 mH 
+(a) 300 mH x 10^3 (uH/mH)=300000 uH 
 
-(b) 0.08 H 
+(b) 0.08 H x 10^6 (uH/H)=80000 uH
 
-(c) 5 mH 
+(c) 5 mH x 10^3 (uH/mH)=5000uH
 
-(d) 0.00045 mH
+(d) 0.00045 mH x 10^3 (uH/mH)=0.45uH
 
 4. Se inducen 50 volts en una bobina de 25 mH. ¿Con qué rapidez cambia la corriente?
 
+Vind= L x I ==> I=Vind/L
+
+I=50V/25mH= 2000 A/s
+
 6. ¿Cuántas vueltas se requieren para producir 30 mH con una bobina enrollada sobre un núcleo cilíndrico cuya área de sección transversal mide 10 x 10^-5 m^2 y tiene longitud de 0.05 m? La permeabilidad del núcleo es de 1.2 x 10^-6 H/m. 
+
+N= √(Ll/uA)
+
+N=√((30mH x 0.05m)/((1.26 x 10^-6)(10x10^-5 m^2)))= 3450 Vueltas
 
 8. Compare la inductancia de dos inductores idénticos excepto que el inductor 2 tiene dos veces la cantidad de vueltas del inductor 1.
 
