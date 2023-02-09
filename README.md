@@ -14,7 +14,15 @@ PÁNCHEZ GUAMUSHIG PABLO ANDRES
 
 OBJETIVO GENERAL:
 
+Comprender y entender lo que son los inductores y transformadores, por medio del análisis de los capítulos 13 y 14 del libro "Principios de circuitos eléctricos" de Thomas Floyd, además de desarrollar correctamente los ejercicios planteados en ambos capítulos y aplicar los conocimientos adquiridos en clase.
+
 OBJETIVOS ESPECÍFICOS:
+
+Identificar los distintos tipos de inductores exitentes y sus características.
+
+Comprender como se dan las formulas exitentes para las diferentes características de los inductores, como por ejemplo la formula para la calcular la inductancia total en serie y paralelo.
+
+Entender el funcionamineto de un transformador y sus características.
 
 2.MARCO CONCEPTUAL
 
@@ -468,10 +476,10 @@ El devanado primario está abierto, por lo tanto el siguiente paso es reemplazar
 Algunos de los devanados secundarios podrían estar en cortocircuito o quizas el voltaje primario es inferior al esperado.
 
 
-
-4. VIDEO
-
 5. CONCLUSIONES
+
+Gracias a la realización de este informe se puede llegar a la conclusión de que se ha comprendido las funciones y caracteríticas que tiene un inductor y un transformador como por ejemplo los inductores principalmente se dividen en inductores variables y fijos, no obstante, esta clasificación se considera ambigua, por lo que ahora si clasifican según su núcleo, entre los más utilizados se encuentran los inductores con núcleos de aire, hierro y ferrita; o  que entre las principales características de un transformador no ideal están; resistencia de devanado: en este caso la resistencia resulta en menos voltaje a través de una carga secundaria. Pérdidas en el núcleo: las perdidas se dan en las conversiones de energía en el material del núcleo de un transformador práctico.
+En conclusión, gracias a lo aprendido durante el analisis de los capítulos 13 y 14 el libro "Principios de circuitos eléctricos" de Thomas Floyd, se llego a obtener y reforzar conocimientos, lo que permitió realizar de la mejor manera los ejercicios propuestos.
 
 6. BIBLIOGRAFÍA
 
