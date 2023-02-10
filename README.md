@@ -495,6 +495,7 @@ Algunos de los devanados secundarios podrían estar en cortocircuito o quizas el
 
 4. VIDEO
 
+https://youtube.com/watch?v=OiPXmx6POro&si=EnSIkaIECMiOmarE
 
 5. CONCLUSIONES
 
