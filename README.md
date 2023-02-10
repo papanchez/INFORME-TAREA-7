@@ -26,6 +26,24 @@ Entender el funcionamineto de un transformador y sus características.
 
 2.MARCO CONCEPTUAL
 
+![image](https://user-images.githubusercontent.com/116771507/217970993-cbb1cfc5-212c-4cba-9ade-b4c8b102161f.png)
+
+![image](https://user-images.githubusercontent.com/116771507/217971022-b3327929-f304-4a3c-8ee8-764a943ce455.png)
+
+![image](https://user-images.githubusercontent.com/116771507/217971049-33452cd1-01da-4a0f-98bb-49db697b41f4.png)
+
+![image](https://user-images.githubusercontent.com/116771507/217971087-59369dda-aa58-44ac-bae4-acf3beaff2ac.png)
+
+![image](https://user-images.githubusercontent.com/116771507/217971119-8ceeafd5-183a-491c-aba2-05531f4ffe86.png)
+
+![image](https://user-images.githubusercontent.com/116771507/217971138-e86be600-2336-448f-bb53-880ad1d2cb52.png)
+
+![image](https://user-images.githubusercontent.com/116771507/217971176-19fb5f89-9b05-4584-87f9-9873c3db2184.png)
+
+![image](https://user-images.githubusercontent.com/116771507/217971195-b204836d-1eac-4ba5-8ffc-488a342c6375.png)
+
+
+
 
 3.RESOLUCIÓN DE EJERCICIOS
 
@@ -474,6 +492,8 @@ El devanado primario está abierto, por lo tanto el siguiente paso es reemplazar
 34. Mientras usted revisa un transformador, se da cuenta que el voltaje secundario es menor de lo que debería ser aunque no es de cero. ¿Cuál es la falla más probable?
 
 Algunos de los devanados secundarios podrían estar en cortocircuito o quizas el voltaje primario es inferior al esperado.
+
+4. VIDEO
 
 
 5. CONCLUSIONES
